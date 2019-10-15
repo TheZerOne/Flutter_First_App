@@ -10,7 +10,7 @@ Answer(this.funcHandler, this.answertext);
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      child: RaisedButton(
+      child: FlatButton(
         color: Colors.blue,
         textColor: Colors.white,
         child: Text(answertext),
